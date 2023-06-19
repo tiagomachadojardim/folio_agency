@@ -1,0 +1,3975 @@
+@font-face {
+    font-family: SF Pro Display;
+    src: url(./fonts/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF);
+ }
+
+ @font-face {
+    font-family: 'SF Pro Text';
+    src: url(./fonts/SF-Pro-Text-Regular.otf);
+ }
+
+
+ * { 
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+html{
+    
+    scroll-behavior: smooth;
+   
+
+}
+
+:target{
+    scroll-margin-top: .8em;
+
+}
+
+html, body{
+    height: 100%;
+  
+
+}
+
+
+
+
+.container{
+
+margin-top:4%;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.menu-hamburguer-lines{
+    display: none;
+}
+
+.logo-menu{
+    width: 10%;
+    margin-left: -5%;
+
+}
+
+
+
+
+
+
+
+.menu{
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90%;
+    line-height: 54px;
+
+align-items: center;
+gap: 60px;
+display: flex;
+    
+
+}
+
+
+
+.about-menu{
+
+text-decoration: none;
+
+
+color: #5468E7;
+
+
+
+}
+
+.work-menu{
+
+text-decoration: none;
+
+color: #8B8B8B;
+
+}
+
+
+.services-menu{
+   
+
+text-decoration: none;
+
+color: #ADADAD;
+
+
+}
+
+.jobs-menu{
+  
+
+text-decoration: none;
+
+
+color: #8B8B8B;
+
+}
+
+.notification{
+ width: 30%;
+ margin-left:5%;
+ 
+}
+
+
+
+.button-menu{
+   
+    background: #232340;
+    border-radius: 8px;
+    width: 10%;
+    height: 10%;
+    border: none;
+    margin-right: -5%;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 10%;
+    font-size: 80%;
+    line-height: 44px;
+    color: #FFFFFF;
+
+}
+
+/* ---------------------------------------------------Section 0----------------------------------------------------------------*/
+
+#home{
+
+    width: 100%;
+    height: 110%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+
+    
+
+}
+
+.hero-content{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 30%;
+
+
+}
+
+
+
+
+.home-stand{
+
+    margin-top: 10%;
+    
+   
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 400%;
+    line-height: 130%;
+    letter-spacing: -1px;
+    
+    /* color/dark */
+    
+    color: #232340;
+}
+
+.home-agency{
+
+    
+    margin-top: 7%;
+    margin-right: 14%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+   
+    font-size: 15px;
+    line-height: 32px;
+    /* or 178% */
+    
+    
+    /* text/body-light-mode */
+    
+    color: #606060;
+
+}
+.button-recent{
+
+
+
+width: 40%;
+height: 8%;
+margin-top: 7%;
+
+border: none;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 10%;
+text-align: center;
+color: #FFFFFF;
+background: #5468E7;
+border-radius: 8px;
+border: none;
+
+}
+
+.home-image{
+width: 100%;
+height: 90%;
+
+
+}
+
+.home-image-3d{
+
+width: 100%;
+height: 105%;
+
+
+}
+
+
+
+
+/* ----------------------------------------------------- Section 1---------------------------------------------------------------*/
+
+
+#who-we-are{
+    
+    background-color: #232340;
+    width: 100%;
+    height: auto;
+
+
+   
+    
+    
+ 
+ 
+
+}
+
+.headline{
+
+    width: 100%;
+   
+    display: flex;
+    padding-top: 5%;
+    
+}
+
+.logo-who-we-are{
+    margin-left: 10%;
+   
+
+}
+
+.tag01{
+
+padding-left: 20%;
+
+
+
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* text/body-dark-mode */
+
+color: #8B8B8B;
+
+}
+.who{
+  
+    padding-left: 2%;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* color/white */
+    
+    color: #FFFFFF;
+
+}
+
+.who-we-are-make-arrow{
+
+width: 100%;
+padding-top: 2%;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+
+}
+
+.we-make{
+  
+    margin-left: 22%;
+    width: 40%;
+    
+    
+    
+    /* heading 2 */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+    /* or 112% */
+    
+    letter-spacing: -0.5px;
+    
+    /* color/white */
+    
+    color: #FFFFFF;
+
+}
+
+
+
+.arrow{
+    
+    width: 8%;
+
+}
+.who-we-are-years-group{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+
+}
+
+
+.years{
+   
+    width: 10%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   
+   list-style: none;
+   gap: 80px;
+    
+
+}
+
+.years-list-2017{
+    /* 2017 */
+
+
+
+height: 24px;
+
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* text/body-dark-mode */
+
+color: #8B8B8B;
+
+}
+
+.years-list-2018{
+    /* 2018 */
+
+
+
+/* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* text/body-dark-mode */
+
+color: #8B8B8B;
+  
+}
+
+.years-list-2019{
+    /* 2019 */
+
+
+
+
+/* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* text/body-dark-mode */
+
+color: #8B8B8B;
+ 
+
+}
+.years-list-2020{
+    /* 2020 */
+
+
+
+
+/* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* color/white */
+
+color: #FFFFFF;
+   
+
+
+
+}
+
+.icon-years{
+
+display: none;
+
+}
+
+.years-list-2021{
+   /* 2021 */
+
+
+
+
+/* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* text/body-dark-mode */
+
+color: #8B8B8B;
+
+
+
+}
+
+.year-select{
+
+    display: none;
+}
+
+
+.group{
+
+    
+width:60%;
+height: 50%;
+
+
+
+}
+
+.who-we-are-content-number{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: flex-end;
+margin-left: -8%;
+}
+
+
+.content{
+
+    padding-top: 5%;
+    width: 40%;
+    height: 50%;
+    padding-bottom: 10%;
+    
+    
+
+
+}
+
+.content-design-team{
+  
+ padding-top: 5%;   
+
+width: 80%;
+/* heading 5 */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+/* or 125% */
+
+letter-spacing: -0.5px;
+
+/* color/white */
+
+color: #FFFFFF;
+
+
+}
+
+.content-curated-design{
+ 
+    padding-top: 5%;   
+    padding-bottom: 5%;
+    width: 60%;
+
+
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 22px;
+/* or 178% */
+
+
+/* text/body-dark-mode */
+
+color: #8B8B8B;
+
+
+}
+
+.button-who-we-are{
+  
+    
+    width: 25%;
+    height: 8%;
+        
+    
+    
+    background: #5468E7;
+    border-radius: 8px;
+    border: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 350%;
+
+    text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+
+.number{
+
+    margin-left: -10%;
+    width: 30%;
+    height: 30%;
+    
+    
+
+
+}
+
+/* ---------------------------------------------------Section 2-----------------------------------------------------------------*/
+
+
+
+
+#what-we-do{
+
+    width: 100%;
+    height: auto;
+
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    
+
+}
+
+.what-we-do-title{
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+ 
+  
+
+
+}
+
+.logo-what-we-do{
+
+    margin-left: 10%;
+
+}
+
+.tag02{
+   
+   padding-left: 20%;
+    /* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* color/primary */
+
+color: #5468E7;
+    
+ 
+
+}
+.what{
+  
+
+ padding-left: 2%;
+/* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* color/primary */
+
+color: #5468E7;
+
+
+
+}
+
+.what-we-do-make-arrow{
+width: 100%;
+margin-top: 2%;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+
+
+}
+
+.what-we-do-make{
+
+    width: 40%;
+   margin-left: 22%;
+/* heading 2 */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 62px;
+/* or 112% */
+
+letter-spacing: -0.5px;
+
+/* color/dark */
+
+color: #232340;
+
+
+}
+
+.what-we-do-arrow{
+
+width: 8%;
+
+
+}
+
+.what-we-do-service-cards{
+margin-top: 10%;
+width:80%;
+height: 10%;
+margin-bottom: 10%;
+
+display: flex;
+justify-content: center;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 133% */
+align-items: center;
+text-align: center;
+letter-spacing: -0.2px;
+margin-left: 10%;
+color: #5468E7;
+/* color/primary */
+
+background: #FFFFFF;
+border-radius: 48px;
+
+
+
+
+}
+
+
+
+
+
+.what-we-do-service-cards-1{
+   
+margin: 5%;
+
+padding-top: 5%;
+padding-bottom: 5%;
+
+}
+
+.what-we-do-service-cards-1:hover{
+    color: #ffffff;
+    background: #5468E7;
+    border-radius: 48px;
+    
+   margin-top: -20%;
+   
+   margin-bottom: -20%;
+
+    
+    flex-grow: 1;
+
+}
+
+.what-we-do-service-cards-1-icon{
+
+width: 70%;
+
+}
+
+.what-we-do-service-cards-2{
+   
+    
+    margin: 5%;
+    padding-top: 5%;
+
+padding-bottom: 5%;
+
+
+
+ 
+}
+
+.what-we-do-service-cards-2:hover{
+    color: #ffffff;
+    background: #5468E7;
+    border-radius: 48px;
+    margin-top: -20%;
+   
+    margin-bottom: -20%;
+ 
+     
+     flex-grow: 1;
+
+}
+
+
+
+.what-we-do-service-cards-2-icon{
+
+    width: 70%;
+    
+    }
+
+
+.what-we-do-service-cards-3{
+    background: #FFFFFF;
+    
+    margin: 5%;
+    padding-top: 5%;
+padding-bottom: 5%;
+
+}
+
+.what-we-do-service-cards-3:hover{
+    color: #ffffff;
+    background: #5468E7;
+    border-radius: 48px;
+    margin-top: -20%;
+   
+   margin-bottom: -20%;
+
+    
+    flex-grow: 1;
+
+}
+
+.what-we-do-service-cards-3-icon{
+
+    width: 70%;
+    
+    }
+
+.what-we-do-service-cards-4{
+
+    background: #FFFFFF;
+    margin: 5%;
+    padding-top: 5%;
+padding-bottom: 5%;
+
+}
+
+.what-we-do-service-cards-4:hover{
+    color: #ffffff;
+    background: #5468E7;
+    border-radius: 48px;
+    margin-top: -20%;
+   
+    margin-bottom: -20%;
+    
+     
+     flex-grow: 1;
+
+}
+
+.what-we-do-service-cards-4-icon{
+
+    width: 70%;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------Section 3-----------------------------------------------------------------*/
+
+
+
+#famous-projects{
+  
+   
+width: 100%;
+
+height: auto;
+
+
+background: linear-gradient( #EDE5F0 100%);
+
+}
+
+
+
+
+.famous-projects-title{
+
+ 
+    width: 100%;
+   display: flex;
+    padding-top: 5%;
+    
+
+
+
+}
+
+.logo-famous-projects{
+
+ margin-left: 10%;
+    
+
+
+
+}
+
+
+.tag03{
+  
+padding-left: 20%;
+
+
+
+/* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* color/primary */
+
+color: #5468E7;
+
+
+
+}
+
+.famous{
+    
+    height: 50%;
+    padding-left: 2%;
+
+    
+
+    
+    /* menu item */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* color/primary */
+    
+    color: #5468E7;
+
+    
+}
+
+.famous-projects-our-agency-button{
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+
+
+}
+
+.famous-projects-our-agency{
+display: flex;
+flex-direction: column;
+width: 50%;
+margin-left: 12%;
+}
+
+.famous-projects-our{
+margin-left: 22%;
+   
+width: 90%;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 50px;
+letter-spacing: -1px;
+
+/* color/dark */
+
+color: #232340;
+
+
+}
+
+
+.famous-projects-agency{
+
+    
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 21%;
+    
+    
+    /* body 1 */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 178% */
+    
+    
+    /* text/body-light-mode */
+    
+    color: #606060;
+
+}
+
+.button-contact-us-famous-projects{
+
+ 
+width: 10%;
+height: 8%;
+margin-right: 3%;
+
+
+background: #5468E7;
+border-radius: 8px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 350%;
+/* identical to box height, or 133% */
+border: none;
+text-align: center;
+
+/* color/white */
+
+color: #FFFFFF;
+
+}
+
+
+.famous-projects-cards-cell{
+
+display: none;
+
+}
+
+.famous-projects-content-female{
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+    display: flex;
+    
+    
+    }
+
+.famous-projects-content{
+   margin-top: 5%;
+    width: 50%;
+    height: auto;
+   display: flex;
+   flex-direction: column;
+   margin-left: 10%;
+
+
+}
+
+.button-famous-projects-content{
+
+    margin-top: 20%;
+    width: 20%;
+    height:auto;
+   
+    background: #908CFF;
+    border-radius: 20px;
+    border: none;
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 300%;
+/* identical to box height, or 129% */
+
+text-align: center;
+
+/* color/white */
+
+color: #FFFFFF;
+
+}
+
+.sapiens-famous-projects-content{
+
+    width: 80%;
+   height: auto;
+    margin-top: 5%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    
+    font-size: 40px;
+    line-height: 48px;
+    /* or 120% */
+    
+    letter-spacing: 0.4px;
+    
+ 
+    color: #000000;
+}
+
+
+.beautiful-famous-projects-content{
+ 
+width: 29%;
+height: auto;
+margin-top: 5%;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 22px;
+
+
+color: #606060;
+
+}
+
+
+
+
+
+
+.famous-projects-famale-button-circle{
+
+width: 50%;
+display: flex;
+align-items: center;
+
+
+}
+
+
+
+
+.famous-projects-famale{
+    margin-top: -10%;
+    margin-left: -110%;
+    height: auto;
+    width: 200%;
+    
+    
+    
+    z-index: -1;
+
+}
+
+.famous-projects-button{
+   
+    width: 5%;
+    height: 5%;
+   margin-left: -137%;
+   margin-top: 75%;
+    background: #232340;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 133% */
+
+text-align: center;
+border-radius: 100%;
+/* color/white */
+border: none;
+
+color: #FFFFFF;
+
+
+}
+
+.famous-projects-circle{
+
+  
+   width: 5%;
+   height: 5%;
+   margin-left: 83%;
+   margin-top: 20%;
+   
+
+}
+
+
+
+
+
+
+
+
+
+.famous-projects-cards{
+
+display: flex;
+margin-top: -10%;
+
+}
+
+
+
+.famous-projects-portfolio-card-1-3{
+
+margin-top: 20%;
+width: 50%;
+height: auto;
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+}
+
+
+.famous-projects-portfolio-card-1{
+
+  
+    width: 60%;
+    display: flex;
+  flex-direction:column;
+
+    
+
+}
+
+.famous-projects-portfolio-card-1-bento{
+
+
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 38px;
+
+letter-spacing: -0.4px;
+
+
+color: #232340;
+
+
+}
+
+.famous-projects-portfolio-card-1-cor{
+   margin-top: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+.famous-projects-portfolio-card-1-tablet{
+
+    margin-top: -85%;
+    margin-left: -15%;
+    width: 120%;
+    height: 120%;
+  
+  
+
+}
+
+.famous-projects-portfolio-card-1-circle-arrow{
+
+width: 13%;
+margin-top: -25%;
+margin-left: 83%;
+
+
+}
+
+
+
+.famous-projects-portfolio-card-1-agency{
+   
+    width: 75%;
+    height: 20%;
+   
+
+ margin-top: 20%;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+
+color: #606060;
+
+}
+
+.famous-projects-portfolio-card-3{
+   
+    width: 50%;
+    display: flex;
+  flex-direction:column;
+    margin-top: 50%;
+   margin-left: 25%; 
+
+
+
+}
+
+.famous-projects-portfolio-card-3-sapiens{
+   
+
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 38px;
+
+letter-spacing: -0.4px;
+
+
+color: #232340;
+
+}
+
+.famous-projects-portfolio-card-3-cor{
+   
+    margin-top: 5%;
+    width: 90%;
+    height: 90%;
+    
+   
+
+}
+
+.famous-projects-portfolio-card-3-male{
+   
+    margin-top: -100%;
+    margin-left: -1%;
+    width: 90%;
+    height: 90%;
+  
+
+
+}
+
+.famous-projects-portfolio-card-3-circle-arrow{
+
+
+width: 15%;
+margin-top: -10%;
+margin-left: 82%;
+
+
+}
+
+.famous-projects-portfolio-card-3-agency{
+
+
+width: 75%;
+height: 20%;
+
+
+margin-top: 25%;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+
+color: #606060;
+
+
+}
+
+
+
+.famous-projects-portfolio-card-2-4{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+}
+
+
+
+.famous-projects-portfolio-card-2{
+
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.famous-projects-portfolio-card-2-stacked-bento{
+    
+
+    width: 50%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    
+    letter-spacing: -0.4px;
+    
+    
+    color: #232340;
+    
+    
+    }
+
+
+.famous-projects-portfolio-card-2-stacked-cor{
+
+    margin-top: 5%;
+    
+    width: 100%;
+    height: 100%;
+       
+    
+    
+}
+
+
+
+.famous-projects-portfolio-card-2-main{
+   
+    margin-top: -110%;
+    margin-left: -90%;
+    width: 200%;
+    height: 200%;
+
+}
+
+.famous-projects-portfolio-card-2-circle-arrow{
+ 
+    width: 15%;
+    margin-top: -25%;
+    margin-left: 92%;
+
+}
+
+
+.famous-projects-portfolio-card-2-stacked-agency{
+
+   
+    width: 75%;
+    height: 20%;
+    
+    margin-top: -12%;
+    
+   
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    
+    color: #606060;
+}
+
+
+
+.famous-projects-portfolio-card-4{
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50%;
+    margin-left: -40%;
+   
+
+
+}
+
+.famous-projects-portfolio-card-4-bento{
+  
+   
+    width: 50%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    
+    letter-spacing: -0.4px;
+    
+    
+    color: #232340;
+
+}
+
+.famous-projects-portfolio-card-4-cor{
+   
+    margin-top: 5%;
+    
+    width: 100%;
+    height: 100%;
+   
+
+
+
+}
+
+.famous-projects-portfolio-card-4-tablet{
+ 
+    margin-top: -105%;
+    margin-left: -25%;
+    width: 150%;
+    height: 150%;
+    
+   
+
+}
+
+.famous-projects-portfolio-card-4-circle-arrow{
+
+   
+    width: 15%;
+    margin-top: -30%;
+    margin-left: 92%;
+
+
+
+}
+
+.famous-projects-portfolio-card-4-agency{
+  
+    width: 75%;
+    height: 20%;
+    
+    margin-top: 24%;
+    
+   
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    
+    color: #606060;
+}
+
+
+
+
+
+
+/* ---------------------------------------------------Section 4-----------------------------------------------------------------*/
+
+
+
+#we-are-hiring{
+
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+   
+    
+    /* gradient/gradient 1 */
+    
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+
+}
+
+.we-are-hiring-topo{
+
+width: 100%;
+display: flex;
+padding-top: 5%;
+
+
+}
+
+.logo-we-are-hiring{
+
+  margin-left: 10%;
+
+}
+
+.tag04{
+   
+    padding-left: 10%;
+
+    /* menu item */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* color/primary */
+    
+    color: #5468E7;
+
+}
+.we-are-hiring-we{
+
+    
+    padding-left: 2%;
+    /* menu item */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* color/primary */
+    
+    color: #5468E7;
+
+}
+
+
+.we-are-hiring-conteudo-cards{
+width: 100%;
+
+display: flex;
+
+
+}
+
+.we-are-hiring-conteudo{
+display: flex;
+flex-direction: column;
+width: 50%;
+margin-left: 22%;
+margin-top: 6%;
+
+}
+
+.we-are-hiring-jobs{
+
+    
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    
+    /* color/dark */
+    
+    color: #232340;
+
+}
+
+.we-are-hiring-agency{
+   
+    
+    /* body 1 */
+    width: 53%;
+    margin-top: 10%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 178% */
+    
+    
+    /* text/body-light-mode */
+    
+    color: #606060;
+
+
+}
+
+
+.we-are-hiring-scroll{
+    
+margin-top: 10%;
+
+}
+
+
+
+
+.we-are-hiring-cards{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+
+
+.we-are-hiring-job-card-1{
+
+width: 80%;
+height: 50%;
+
+background: #FFFFFF;
+border-radius: 40px;
+box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+  
+}
+
+
+
+
+.we-are-hiring-job-card1-graphic{
+  
+    margin-top: 10%;
+    margin-left: 10%;
+    
+    /* heading 5 */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+    
+    letter-spacing: 0.5px;
+    
+    /* color/dark */
+    
+    color: #232340;
+    
+
+
+
+}
+
+.we-are-hiring-job-card1-2years{
+
+    margin-left: 10%;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+
+
+color: #606060;
+
+
+}
+
+
+.we-are-hiring-job-card1-arrow{
+  
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 8%;
+    
+}
+
+.we-are-hiring-job-card1-notification{
+
+width: 5%;
+margin-left: 1%;
+
+
+}
+
+
+
+.we-are-hiring-job-card-2{
+
+    width: 80%;
+    height: 50%;
+    margin-top: 3%;
+    background: #232340;
+    border-radius: 40px;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+    
+
+}
+
+
+
+
+.we-are-hiring-job-card2-visual{
+
+    margin-top: 10%;
+    margin-left: 10%;
+
+/* heading 5 */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.5px;
+
+/* color/white */
+
+color: #FFFFFF;
+
+
+}
+
+.we-are-hiring-job-card2-2years{
+    
+    
+    margin-left: 10%;
+    
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+/* identical to box height, or 178% */
+
+
+/* text/body-dark-mode */
+
+color: #8B8B8B;
+    
+
+}
+
+.we-are-hiring-job-card2-arrow{
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 8%;
+  
+}
+
+
+
+.we-are-hiring-job-card-3{
+    width: 80%;
+    height: 50%;
+    margin-top: 3%;
+    background: #FFFFFF;
+    border-radius: 40px;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+
+}
+
+
+
+.we-are-hiring-job-card3-art{
+    margin-top: 10%;
+    margin-left: 10%;
+   
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    
+    
+    letter-spacing: -0.5px;
+    
+ 
+    
+    color: #232340;
+
+}
+
+.we-are-hiring-job-card3-2years{
+
+    margin-left: 10%;
+
+/* body 1 */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+/* identical to box height, or 178% */
+
+
+/* text/body-light-mode */
+
+color: #606060;
+
+
+}
+
+.we-are-hiring-job-card3-arrow{
+
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 8%;
+
+}
+
+
+.we-are-hiring-job-card-4{
+
+    width: 80%;
+    height: 50%;
+    margin-top: 3%;
+    background: #FFFFFF;
+    border-radius: 40px;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+}
+
+
+
+.we-are-hiring-job-card4-web{
+ 
+    margin-top: 10%;
+    margin-left: 10%;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.5px;
+
+/* color/dark */
+
+color: #232340;
+
+}
+
+.we-are-hiring-job-card4-2years{
+ 
+
+    margin-left: 10%;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+
+
+color: #606060;
+
+}
+
+.we-are-hiring-job-card4-arrow{
+
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 8%;
+    
+
+}
+
+.we-are-hiring-job-card4-notification{
+    
+    width: 5%;
+margin-left: 1%;
+
+
+
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------Footer-----------------------------------------------------------------*/
+
+
+
+
+
+.cta-footer{
+
+  width: 100%;
+  height: 100%;
+
+  margin-top: 10%;
+
+   
+
+
+}
+
+
+.rectangle-cell{
+
+display: none;
+
+}
+
+.rectangle{
+  
+   margin-left:5% ;
+    width: 90%;
+    height: 120%;
+    
+    /* color/primary */
+    
+    background: #5468E7;
+    border-radius: 40px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.rectangle-superior{
+width: 100%;
+height: 100%;
+justify-content: space-evenly;
+margin-bottom: 10%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+.rectangle-logo{
+  
+width: 2%;
+margin-top: 5%;
+
+}
+
+.rectangle-mao{
+   margin-right: 5%;
+   padding-left: 5%;
+   
+}
+
+.rectangle-say-hello{
+
+ width: 10%;
+ height: 10%;
+
+
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+
+/* color/white */
+
+color: #FFFFFF;
+
+}
+
+
+.rectangle-a-design{
+width: 30%;
+
+
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+/* or 125% */
+
+text-align: center;
+letter-spacing: 0.5px;
+
+/* color/white */
+
+color: #FFFFFF;
+
+}
+
+
+
+
+.rectangle-inferior{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+   
+display: flex;
+
+
+}
+
+.rectangle-inferior-esquerdo{
+width: 50%;
+height: 100%;
+border-right: 1px solid rgba(255, 255, 255, 0.2);
+align-items: center;
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+
+
+.rectangle-inferior-direito{
+    width: 50%;
+    height: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rectangle-let{
+width: 30%;
+margin-top: 15%;   
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 42px;
+
+
+letter-spacing: 0.5px;
+
+
+
+color: #FFFFFF;
+
+}
+
+
+
+
+.rectangle-bubble{
+   
+width: 20%;
+height: 20%;
+margin-top: 10%;
+margin-left: 10%;
+
+}
+
+.rectangle-invest{
+    margin-left: 14%; 
+width: 40%;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 40px;
+/* or 125% */
+
+letter-spacing: -0.5px;
+
+/* color/white */
+
+color: #FFFFFF;
+
+
+
+}
+
+.rectangle-circle-arrow{
+
+    width: 15%;
+    height: 15%;
+    margin-left: 80%;
+    margin-top: -12%;
+    
+}
+
+
+
+
+
+
+
+.footer-content-cell{
+
+display: none;
+
+}
+
+
+.footer-content{
+
+    
+   width: 100%;
+   height: auto;
+    
+
+}
+
+.footer-content-logo-menu{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+text-align: center;
+
+}
+
+
+.logo-footer{
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+
+
+}
+
+.footer-content-agency{
+    width: 43%;
+    height: 10%;
+    margin-top: 2%;
+   
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* or 178% */
+    
+    
+    
+    /* text/body-light-mode */
+    
+    color: #606060;
+
+
+}
+
+
+.footer-menu{
+  
+    width: 43%;
+    height: 10%;
+    margin-top: 2%;
+
+    display: flex;
+    
+    justify-content: space-evenly;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90%;
+    line-height: 24px;
+   
+
+}
+
+.footer-about-menu{
+  
+    
+
+    text-decoration: none;
+    color: #5468E7;
+}
+
+.footer-work-menu{
+ 
+  
+    text-decoration: none;
+
+    
+    color: #8B8B8B;
+
+}
+
+.footer-services-menu{
+ 
+    
+
+    text-decoration: none;
+    
+    /* text/body-dark-mode */
+    
+    color: #8B8B8B;
+
+}
+
+.footer-jobs-menu{
+   
+    text-decoration: none;
+  
+    color: #8B8B8B;
+    
+}
+
+.footer-bottom{
+
+width: 90%;
+
+display: flex;
+align-items: center;
+padding-top: 2%;
+padding-bottom: 2%;
+margin-top: 2%;
+margin-left: 5%;
+justify-content:space-between;
+
+border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.footer-bottom-copy{
+   
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    
+    
+    /* text/deactive-2 */
+    
+    color: #ADADAD;
+
+}
+
+
+.footer-bottom-follow{
+
+ 
+
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height, or 129% */
+
+
+/* color/primary */
+
+color: #5468E7;
+
+
+}
+
+.footer-bottom-contato{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+
+
+}
+
+
+@media (max-width: 767px) {
+
+
+.container{
+
+display: flex;
+margin-top: 10%;
+justify-content: space-between;
+}
+
+.logo-menu{
+
+width: 25%;
+margin-left: 10%;
+
+}
+
+.menu-hamburguer-lines{
+    width: 20%;
+    
+    display: flex;
+    margin-right: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+   
+.menu-hamburguer-lines-1{
+
+width: 40%;
+height: 10%;
+background-color: #000000;
+}
+.menu-hamburguer-lines-2{
+
+    width: 40%;
+    height: 10%;
+    
+    background-color: #000000;
+    }
+
+.menu{
+display: none;
+
+}
+
+.button-menu{
+
+display: none;
+
+}
+
+/* ---------------------------------------------------Section 0----------------------------------------------------------------*/
+
+#home{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -20%;
+flex-direction: column;
+overflow: hidden;
+    
+
+}
+
+.hero-content{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 100%;
+    
+
+
+}
+
+
+.home-stand{
+
+    margin-top: 10%;
+    width: 60%;
+   
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 300%;
+    line-height: 130%;
+    letter-spacing: -1px;
+    
+    /* color/dark */
+    
+    color: #232340;
+}
+
+.home-agency{
+
+    margin-top: 7%;
+    margin-right: 14%;
+    width: 70%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+   
+    font-size: 15px;
+    line-height: 30px;
+    /* or 178% */
+    
+    
+    /* text/body-light-mode */
+    
+    color: #606060;
+
+}
+.button-recent{
+
+
+
+width: 40%;
+height: 15%;
+margin-top: 7%;
+
+border: none;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 10%;
+text-align: center;
+color: #FFFFFF;
+background: #5468E7;
+border-radius: 8px;
+border: none;
+
+
+
+}
+
+.home-image{
+width: 100%;
+height: 45%;
+
+}
+
+.home-image-3d{
+
+width: 100%;
+height: 100%;
+margin-left: 25%;
+margin-top: -20%;
+
+z-index: -1;
+
+}
+
+
+
+
+
+
+/* ----------------------------------------------------- Section 1---------------------------------------------------------------*/
+
+
+#who-we-are{
+    
+    background-color: #232340;
+    width: 100%;
+    height: auto;
+
+    overflow: hidden;
+   
+    
+    
+ 
+ 
+
+}
+
+.headline{
+
+    width: 100%;
+   
+    display: flex;
+    
+    
+}
+
+.logo-who-we-are{
+  display: none;
+   
+
+}
+
+.tag01{
+
+margin-left: -10%;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* text/body-dark-mode */
+
+color: #8B8B8B;
+
+}
+.who{
+  
+    padding-left: 2%;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* color/white */
+    
+    color: #FFFFFF;
+
+}
+
+.who-we-are-make-arrow{
+
+width: 100%;
+padding-top: 2%;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+flex-direction: column;
+
+}
+
+.we-make{
+  
+    
+    width: 60%;
+    
+   margin-left: 10%;
+    margin-top: 2%;
+    /* heading 2 */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 62px;
+    /* or 112% */
+    
+    letter-spacing: -0.5px;
+    
+    /* color/white */
+    
+    color: #FFFFFF;
+
+}
+
+
+
+.arrow{
+    
+    width: 38%;
+    margin-left: 8%;
+    margin-top: 2%;
+
+}
+
+
+.who-we-are-years-group{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.years{
+   
+    width: 10%;
+    height: 50%;
+    display: none;
+    flex-direction: column;
+   
+   list-style: none;
+   gap: 80px;
+    
+
+}
+
+.year-select{
+display: block;
+background: #232340;
+border-radius: 8px;
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+width: 30%;
+height: 30%;
+margin-top: -17%;
+margin-left: 40%;
+/* color/white */
+padding: 2%;
+color: #FFFFFF;
+
+
+
+}
+
+
+.group{
+
+margin-top: 20%;
+
+width:150%;
+height: auto;
+
+
+
+
+
+}
+
+.who-we-are-content-number{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: flex-end;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.content{
+
+width: 100%;
+margin-left: 30%;
+
+
+}
+
+.content-design-team{
+  
+ padding-top: 5%;   
+
+width: 80%;
+/* heading 5 */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+/* or 125% */
+
+letter-spacing: -0.5px;
+
+/* color/white */
+
+color: #FFFFFF;
+
+
+}
+
+.content-curated-design{
+ 
+    padding-top: 5%;   
+    padding-bottom: 5%;
+    width: 80%;
+
+
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 22px;
+/* or 178% */
+
+
+/* text/body-dark-mode */
+
+color: #8B8B8B;
+
+
+}
+
+.button-who-we-are{
+  
+    
+    width: 25%;
+    height: 8%;
+    margin-top: 1%;    
+    
+    
+    background: #5468E7;
+    border-radius: 8px;
+    border: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 350%;
+
+    text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+
+.number{
+
+    
+    width: 60%;
+    height: 60%;
+    margin-left: 15%;
+    
+    
+
+
+}
+
+
+
+
+
+/* ---------------------------------------------------Section 2-----------------------------------------------------------------*/
+
+
+
+
+#what-we-do{
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    
+
+}
+
+.what-we-do-title{
+   
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+ 
+  
+
+
+}
+
+.logo-what-we-do{
+
+  display: none;
+
+}
+
+.tag02{
+   
+   padding-left: 10%;
+    /* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* color/primary */
+
+color: #5468E7;
+    
+ 
+
+}
+.what{
+  
+
+ padding-left: 2%;
+/* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* color/primary */
+
+color: #5468E7;
+
+
+
+}
+
+.what-we-do-make-arrow{
+width: 100%;
+margin-top: 2%;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+flex-direction: column;
+
+
+}
+
+.what-we-do-make{
+
+    width: 70%;
+   margin-left: 10%;
+/* heading 2 */
+margin-top: 5%;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 52px;
+/* or 112% */
+
+letter-spacing: -0.5px;
+
+/* color/dark */
+
+color: #232340;
+
+
+}
+
+.what-we-do-arrow{
+
+width: 18%;
+margin-left: 10%;
+margin-top: 5%;
+
+}
+
+.what-we-do-service-cards{
+
+width:80%;
+height: 100%;
+margin-bottom: 10%;
+flex-direction: column;
+display: flex;
+justify-content: flex-start;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 22px;
+/* identical to box height, or 133% */
+align-items: center;
+text-align: center;
+letter-spacing: -0.2px;
+margin-left: 10%;
+
+/* color/primary */
+
+padding-bottom: 10%;
+
+
+}
+
+
+
+.what-we-do-service-cards-1{
+   
+border-radius: 48px;
+
+width: 80%;
+height: 10%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+
+
+
+
+}
+
+
+.what-we-do-service-cards-1:hover{
+    
+  
+    width: 80%;
+    height: 10%;
+    display: block;
+ 
+
+}
+
+
+
+
+
+.what-we-do-service-cards-1-icon{
+
+width: 20%;
+
+}
+
+.what-we-do-service-cards-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    border-radius: 48px;
+    width: 80%;
+    height: 10%;
+box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+ 
+}
+
+
+
+.what-we-do-service-cards-2:hover{
+    
+    width: 80%;
+    height: 10%;
+    display: block;
+ 
+ }
+
+
+
+.what-we-do-service-cards-2-icon{
+
+    width: 20%;
+    
+    }
+
+
+.what-we-do-service-cards-3{
+    background: #FFFFFF;
+    
+    border-radius: 48px;
+    width: 80%;
+    height: 10%;
+    display: flex;
+align-items: center;
+justify-content: space-around;
+box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+}
+
+
+
+.what-we-do-service-cards-3:hover{
+    display: block;
+ 
+ }
+
+.what-we-do-service-cards-3-icon{
+
+    width: 20%;
+    
+    }
+
+.what-we-do-service-cards-4{
+
+    background: #FFFFFF;
+    border-radius: 48px;
+    width: 80%;
+    height: 10%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+}
+
+
+
+.what-we-do-service-cards-4:hover{
+    display: block;
+    width: 80%;
+height: 10%;
+ 
+ }
+
+.what-we-do-service-cards-4-icon{
+
+    width: 20%;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------Section 3-----------------------------------------------------------------*/
+
+
+
+#famous-projects{
+  
+margin-top: 10%; 
+width: 100%;
+overflow: hidden;
+height: auto;
+
+
+
+background: linear-gradient( #EDE5F0 100%);
+
+}
+
+
+
+
+.famous-projects-title{
+
+ 
+    width: 100%;
+   display: flex;
+   margin-top: 5%;
+    
+
+
+
+}
+
+.logo-famous-projects{
+
+display: none;
+    
+
+
+
+}
+
+
+.tag03{
+  
+padding-left: 10%;
+
+
+
+/* menu item */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* color/primary */
+
+color: #5468E7;
+
+
+
+}
+
+.famous{
+    
+    height: 100%;
+    padding-left: 2%;
+
+    
+
+    
+    /* menu item */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* color/primary */
+    
+    color: #5468E7;
+
+    
+}
+
+.famous-projects-our-agency-button{
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+
+
+}
+
+.famous-projects-our-agency{
+display: flex;
+flex-direction: column;
+width: 100%;
+margin: 0%;
+
+
+}
+
+.famous-projects-our{
+margin-top: 10%;
+width: 90%;
+margin-left: 10%;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 50px;
+letter-spacing: -1px;
+
+/* color/dark */
+
+color: #232340;
+
+
+}
+
+
+.famous-projects-agency{
+
+    
+    width: 70%;
+   margin-left: 10%;
+
+   
+    
+    
+    /* body 1 */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 178% */
+    
+    
+    /* text/body-light-mode */
+    
+    color: #606060;
+
+}
+
+.button-contact-us-famous-projects{
+
+ 
+width: 10%;
+height: 8%;
+margin-right: 3%;
+display: none;
+
+background: #5468E7;
+border-radius: 8px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 350%;
+/* identical to box height, or 133% */
+border: none;
+text-align: center;
+
+/* color/white */
+
+color: #FFFFFF;
+
+}
+
+
+.famous-projects-content-female{
+
+    display: none;
+}
+
+.famous-projects-cards {
+display: none;
+
+
+}
+
+.famous-projects-cards-cell{
+display: flex;
+flex-direction: column;
+width: 90%;
+height: auto;
+align-items:self-start;
+margin-left: 10%;
+
+
+}
+
+
+
+
+.famous-projects-famale-fundo-cell{
+    width: 90%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    
+    background: #FFBA79;
+    border-radius: 17.0667px;
+   
+
+}
+
+.button-famous-projects-content{
+    width: 30%;
+    height: 10%;
+    margin-top: -10%;
+    margin-left: 3%;
+
+
+
+}
+
+
+.famous-projects-cards-cell-title{
+    width: 100%;
+margin-top: 5%;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.2px;
+margin-bottom: 5%;
+
+/* color/dark */
+
+color: #232340;
+}
+
+.famous-projects-cards-cell-cont{
+    width: 70%;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* text/body-light-mode */
+
+color: #606060;
+}
+
+
+.famous-projects-portfolio-circle-arrow{
+    margin-top: 5%;
+    width: 15%;
+
+}
+
+
+
+.famous-projects-portfolio-card-2-cell{
+    width: 90%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    background: #E8BEFF;
+border-radius: 17.0667px;
+
+
+}
+
+
+.famous-projects-portfolio-card-1-cell{
+
+    width: 90%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    background: #FFCE79;
+border-radius: 17.0667px;
+    
+
+}
+
+.famous-projects-portfolio-card-4-cell{
+
+    width: 90%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    background: #D1ECFD;
+border-radius: 17.0667px;
+}
+
+
+.famous-projects-portfolio-card-3-cell{
+
+    width: 90%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    background: #FFBA79;
+border-radius: 17.0667px;
+}
+
+.button-contact-us-famous-projects{
+display: none;
+width: 70%;
+margin: 10%;
+
+
+}
+
+.button-contact-us-famous-projects-cell{
+    display: block;
+    width: 90%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+    background: #5468E7;
+    border: none;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+text-align: center;
+
+/* color/white */
+padding:4%;
+color: #FFFFFF;
+border-radius: 8px;
+    
+    
+    }
+
+
+
+/* ---------------------------------------------------Section 4-----------------------------------------------------------------*/
+
+
+
+#we-are-hiring{
+
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+    /* gradient/gradient 1 */
+    
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+
+}
+
+.we-are-hiring-topo{
+
+width: 100%;
+display: flex;
+padding-top: 5%;
+
+
+
+}
+
+.logo-we-are-hiring{
+
+  display: none;
+
+}
+
+.tag04{
+   
+    padding-left: 10%;
+
+    /* menu item */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* color/primary */
+    
+    color: #5468E7;
+
+}
+
+
+
+
+
+
+.we-are-hiring-we{
+
+   
+    
+    padding-left: 2%;
+    /* menu item */
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* color/primary */
+    
+    color: #5468E7;
+
+}
+
+
+.we-are-hiring-conteudo-cards{
+width: 100%;
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+}
+
+.we-are-hiring-conteudo{
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-left: 10%;
+margin-top: 6%;
+
+}
+
+.we-are-hiring-jobs{
+
+    
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    
+    /* color/dark */
+    
+    color: #232340;
+
+}
+
+.we-are-hiring-agency{
+   
+    
+    /* body 1 */
+    width: 70%;
+    margin-top: 10%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* or 178% */
+    margin-bottom: 5%;
+    
+    /* text/body-light-mode */
+    
+    color: #606060;
+
+
+}
+
+
+.we-are-hiring-scroll{
+    
+display: none;
+
+}
+
+
+
+
+.we-are-hiring-cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0%;
+    padding: 2%;
+
+
+}
+
+
+
+.we-are-hiring-job-card-1{
+
+width: 80%;
+height: 60%;
+padding-bottom: 5%;
+background: #FFFFFF;
+border-radius: 40px;
+box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+  
+}
+
+
+
+.we-are-hiring-job-card-2{
+    padding-bottom: 5%;
+    width: 80%;
+    height: 50%;
+    margin-top: 3%;
+    background: #232340;
+    border-radius: 40px;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+    
+
+}
+
+
+
+.we-are-hiring-job-card-3{
+    width: 80%;
+    height: 50%;
+    margin-top: 3%;
+    background: #FFFFFF;
+    border-radius: 40px;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    padding-bottom: 5%;
+
+
+}
+
+
+.we-are-hiring-job-card-4{
+
+    width: 80%;
+    height: 50%;
+    margin-top: 3%;
+    background: #FFFFFF;
+    border-radius: 40px;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    padding-bottom: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------Footer-----------------------------------------------------------------*/
+
+
+
+
+
+.cta-footer{
+
+  width: 100%;
+  height: auto;
+
+  
+overflow: hidden;
+align-items: center;
+   display: flex;
+   flex-direction: column;
+justify-content: center;
+
+}
+
+.rectangle{
+
+   display: none;
+  
+
+}
+
+
+.rectangle-cell{
+    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    background: #5468E7;
+border-radius: 24px;
+height: 80%;
+
+justify-content: center;
+align-items: center;
+
+}
+
+.rectangle-cell-superior{
+
+display: flex;
+height: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin: 10%;
+
+}
+
+.rectangle-bubble{
+
+width: 20%;
+
+}
+
+.rectangle-say-hello{
+
+    width: 30%;
+
+}
+
+
+
+.rectangle-a-design{
+    width: 75%;
+
+}
+
+
+.rectangle-cell-inferior{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 10%;
+    }
+
+.rectangle-let-cell{
+
+width: 80%;
+margin-top: 10%;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* or 125% */
+
+text-align: center;
+letter-spacing: -0.5px;
+
+/* color/white */
+
+color: #FFFFFF;
+
+
+}
+
+
+.button-contact-us-footer{
+
+width: 80%;
+height: 20%;
+padding: 5%;
+margin-top: 5%;
+background: #FFFFFF;
+border-radius: 8px;
+border-color:#FFFFFF;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+text-align: center;
+
+/* color/primary */
+
+color: #5468E7;
+    
+}
+
+
+
+
+
+
+
+.footer-content{
+
+    
+  display: none;
+    
+
+}
+
+.footer-content-cell{
+    width: 100%;
+    height: 100%;
+   
+    
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.footer-content-logo-menu-cell{
+    display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+height: 100%;
+
+margin: 10%;
+}
+
+.footer-content-agency-cell{
+    margin: 5%;
+    width: 70%;
+    height: 100%;
+  
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    text-align: center;
+    
+    /* text/deactive-2 */
+    
+    color: #ADADAD;
+
+}
+
+.footer-content-menu-cell{
+margin: 5%;
+width: 50%;
+padding: 2%;
+border: 1px solid #D8D8D8;
+border-radius: 8px;
+
+
+}
+
+
+
+
+.footer-bottom-cell{
+   
+display: flex;
+align-items: center;
+flex-direction: column;
+    width: 100%;
+    height: 100%;
+   
+
+    padding-bottom: 20%;
+
+}
+
+.footer-bottom-contato-cell{
+   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    }
+
+.footer-bottom-cell-fundo{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(8, 8, 8, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+    margin: 1%;
+
+
+}
+
+.footer-bottom-cell-fundo:hover{
+    width: 50px;
+    height: 50px;
+    background: #5468E7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+    margin: 1%;
+
+
+}
+
+
+.footer-bottom-copy{
+
+    padding-top: 10%;
+
+    margin-bottom: 70%;
+}
+
+
+
+
+
+
+  }
