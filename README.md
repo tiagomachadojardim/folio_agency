@@ -1,5 +1,5 @@
 # Folio Agency
-## Projeto referente ao desafio da terceira semana com o intuído de exercitar algumas tecnologias como HTML e Css criando uma página web.
+## Projeto referente ao desafio da terceira semana com o intuído de exercitar algumas tecnologias como HTML e Css, criando uma página web.
 
 ### 1. Status do projeto
 O projeto se encontra praticamente completo, faltando somente algumas alterações para deixar o código mais intuitivo.  Devido ao tempo não foi possível conseguir concluir essas alterações. Apesar disso, mesmo com algumas funções faltando, visualmente é possível identificar o projeto como terminado.
